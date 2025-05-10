@@ -1,0 +1,31 @@
+{{ partial "header" . }}
+    {{ $.Scratch.Set "shareNav" true }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        <article class="pk-post">
+            <div id="content">
+                {{ .Content | markdownify}}
+            </div>
+        </article>
+        <article class="pk-post">
+            <div id="mainpage-news-link">
+                    <h1><u>RECENT HIGHLIGHTS</u></h1>    
+                    {{ $format := "January 2006" }}
+                    {{ range (where .Site.Pages "Section" "news") }}
+                        {{ range first 13 .Pages }}
+                        <article class="mainpage-news-link">
+                       
+                        <span style="padding-top: 2px;"><i class="fa-solid fa-circle-dot fa-xs"></i></span>
+                        <span>&nbsp;</span>
+                        <span> <b><a href="{{ .RelPermalink }}">{{.Date.Format $format }}</a></b> </span>
+                        <span>&nbsp;</span>
+                        <span> {{ .Title | markdownify}} </span>
+                    </article>
+                        {{ end }}
+                    {{ end }}
+            </div>
+        </article>
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

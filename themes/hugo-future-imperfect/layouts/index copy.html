@@ -1,0 +1,33 @@
+{{ partial "header" . }}
+{{ $.Scratch.Set "shareNav" true }}
+{{ partial "navbar" . }}
+<!-- Main -->
+<div id="main">
+    <article class="post">
+        <div id="content">
+            {{ .Content }}
+        </div>
+
+
+    </article>
+
+    <article class="post">
+
+        {{ with resources.Get "news" }}
+            {{ range .Data.Pages }}
+                {{ .Render "summary"}}
+            {{ end }}
+        {{ end }}
+
+    </article>
+
+
+
+    {{ range first 1 (where .Site.Pages "Type" "post") }}
+    {{ .Render "content-single" }}
+
+    {{ partial "share-menu" . }}
+    {{ end }}
+</div>
+{{ partial "sidebar" . }}
+{{ partial "footer" . }}

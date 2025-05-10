@@ -1,0 +1,359 @@
+/*
+  This css file is for individual users to restyle items for their personal site,
+  or for the implementation of features specifically for their site. Anything that
+  is an official part of the theme (ex. Pull Requests) should be included in main.css
+  within the formating given.
+*/
+#wrapper {
+  padding: 1.5em;
+  width: 90em;
+}
+
+#sidebar{
+  padding-top: 3em;
+  margin-right: 1em;
+}
+
+.pk-footer{
+  margin: 0em;
+  padding: 0em;
+}
+
+.pk-title-spacing{
+  width: 5%;
+}
+
+.pk-list-post {
+  padding: 1em 1em 1em 1em ; 
+  background: #ffffff;
+  border: solid 1px rgba(160, 160, 160, 0.3);
+  margin: 0 0 0.5em 0;
+  position: relative;
+}
+
+
+.pk-post {
+  padding: 1em 2em 1em 2em ;
+  background: #ffffff;
+  border: solid 1px rgba(160, 160, 160, 0.3);
+  margin: 0 0 2em 0;
+  position: relative;
+}
+
+
+.mainpage-news-link{
+  display: grid;
+  grid-template-columns: 1% 1% 15% 1% 82%;
+}
+ 
+.news {
+  padding: 1em 3em 1.5em 3em ;
+  background: #ffffff;
+  border: solid 1px rgba(160, 160, 160, 0.3);
+  margin: .5em 0em;
+  position: relative;
+}
+
+  .news > header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+    left: -3em;
+    margin: -1.5em 0 -1.5em 0;
+    position: relative;
+    width: calc(100% + 6em);
+  }
+
+    .news > header .title {
+      align-items: center;
+      -moz-flex-grow: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-grow: 1;
+      flex-grow: 1;
+      -m-flex: 1;
+      padding: 1.5em 2.25em 1.5em 2.25em;
+    }
+
+      .news > header .title h2 {
+        font-weight: 900;
+        font-size: 1.25em;
+      }
+
+      .news > header .title p {
+        text-transform: none;
+        line-height: 1.75;
+      }
+      .news > header .title > :last-child {
+        margin-bottom: 0;
+      }
+
+    .news > header .meta {
+      align-items: center;
+      padding: 1.5em 3em 1.5em 3em;
+      border-left: solid 1px rgba(160, 160, 160, 0.3);
+      min-width: 17em;
+      text-align: right;
+      width: 17em;
+    }
+
+      .news > header .meta > * {
+        margin: 0 0 1em 0;
+      }
+
+      .news > header .meta > :last-child {
+        margin-bottom: 0;
+      }
+
+      .news > header .meta .published {
+        color: #3c3b3b;
+        display: block;
+        font-family: "Raleway", Helvetica, sans-serif;
+        font-size: 0.7em;
+        font-weight: 800;
+        letter-spacing: 0.25em;
+        margin-top: 0.5em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+  .news > .image.featured {
+    overflow: hidden;
+  }
+
+    .news > .image.featured img {
+      -moz-transition: -moz-transform 0.2s ease-out;
+      -webkit-transition: -webkit-transform 0.2s ease-out;
+      -ms-transition: -ms-transform 0.2s ease-out;
+      transition: transform 0.2s ease-out;
+    }
+
+    .news > .image.featured:hover img {
+      -moz-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+
+  .news > footer {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+
+    .news > footer .actions {
+      -moz-flex-grow: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-grow: 1;
+      flex-grow: 1;
+    }
+
+    .news > footer .stats {
+      cursor: default;
+      list-style: none;
+      padding: 0;
+    }
+
+      .news > footer .stats li {
+        border-left: solid 1px rgba(160, 160, 160, 0.3);
+        display: inline-block;
+        font-family: "Raleway", Helvetica, sans-serif;
+        font-size: 0.6em;
+        font-weight: 400;
+        letter-spacing: 0.25em;
+        line-height: 1;
+        margin: 0 0 0 2em;
+        padding: 0 0 0 2em;
+        text-transform: uppercase;
+      }
+
+        .news > footer .stats li:first-child {
+          border-left: 0;
+          margin-left: 0;
+          padding-left: 0;
+        }
+
+        .news > footer .stats li .icon {
+          border-bottom: 0;
+        }
+
+          .news > footer .stats li .icon:before {
+            color: rgba(160, 160, 160, 0.3);
+            margin-right: 0.75em;
+          }
+
+  @media screen and (max-width: 980px) {
+
+
+
+    .mainpage-news-link{
+      display: grid;
+      grid-template-columns: 3% 2% 35% 1% 60%;
+    }
+
+    .news {
+      border-left: 0;
+      border-right: 0;
+      left: -3em;
+      width: calc(100% + (3em * 2));
+    }
+
+      .news > header {
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 1em ;
+        border-left: 0;
+      }
+
+        .news > header .title {
+          -ms-flex: 0 1 auto;
+          margin: 0 0 1em 0;
+          padding: 0;
+          text-align: center;
+        }
+
+        .news > header .meta {
+          -moz-align-items: center;
+          -webkit-align-items: center;
+          -ms-align-items: center;
+          align-items: center;
+          display: -moz-flex;
+          display: -webkit-flex;
+          display: -ms-flex;
+          display: flex;
+          -moz-justify-content: center;
+          -webkit-justify-content: center;
+          -ms-justify-content: center;
+          justify-content: center;
+          border-left: 0;
+          margin: 0 0 1em 0;
+          padding-top: 0;
+          padding: 0;
+          text-align: left;
+          width: 100%;
+        }
+
+          .news > header .meta > * {
+            border-left: solid 1px rgba(160, 160, 160, 0.3);
+            margin-left: 2em;
+            padding-left: 2em;
+          }
+
+          .news > header .meta > :first-child {
+            border-left: 0;
+            margin-left: 0;
+            padding-left: 0;
+          }
+
+          .news > header .meta .published {
+            margin-bottom: 0;
+            margin-top: 0;
+          }
+
+          .news > header .meta .author,
+          .news > header .meta .format {
+            -moz-flex-direction: row-reverse;
+            -webkit-flex-direction: row-reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+            margin-bottom: 0;
+          }
+
+            .news > header .meta .author .name,
+            .news > header .meta .format .name {
+              margin: 0 0 0 1.5em;
+
+            }
+
+            .news > header .meta .author img,
+            .news > header .meta .format img {
+              width: 3.5em;
+            }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    .mainpage-news-link{
+      display: grid;
+      grid-template-columns: 3% 2% 35% 1% 60%;
+    }
+
+    .news {
+      padding: 0;
+      left: -1.5em;
+      margin: 0 0 1em 0;
+      width: calc(100% + (1.5em * 2));
+    }
+
+      .news > header {
+        padding: 3em 1.5em 0.5em 1.5em ;
+        left: -1.5em;
+        margin: -1.5em 0 0 0;
+        width: calc(100% + 3em);
+      }
+
+        .news > header .title h2 {
+          font-size: 1em;
+        }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .news > header .meta {
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      -ms-align-items: center;
+      align-items: center;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+      .news > header .meta > * {
+        border-left: 0;
+        padding-left: 0;
+        margin-left: 0;
+      }
+
+      .news > header .meta .author .name {
+        display: none;
+      }
+
+    .news > .image.featured {
+      margin-left: -1.5em;
+      margin-top: calc(-1.5em - 1px);
+      width: calc(100% + 3em);
+    }
+
+    .news > footer {
+      -moz-align-items: stretch;
+      -webkit-align-items: stretch;
+      -ms-align-items: stretch;
+      align-items: stretch;
+      -moz-flex-direction: column-reverse;
+      -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+    }
+
+      .news > footer .stats {
+        text-align: center;
+      }
+
+        .news > footer .stats li {
+          margin: 0 0 0 1.25em;
+          padding: 0 0 0 1.25em;
+        }
+
+  }

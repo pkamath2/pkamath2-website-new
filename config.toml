@@ -1,0 +1,243 @@
+# For a description of these parameters, please visit the theme wiki.
+# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
+baseurl                 = "https://purnimakamath.com"
+DefaultContentLanguage  = "en"
+title                   = "Purnima Kamath"
+theme                   = "hugo-future-imperfect"
+paginate                = 10
+disqusShortname         = "shortname"
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = []
+# Set the followings to true as part of your site SEO
+enableRobotsTXT = true
+canonifyURLs = true
+
+[markup.goldmark.renderer]
+  unsafe                = true
+
+
+[module]
+  [module.hugoVersion]
+  extended              = false
+  min                   = "0.105.0"
+
+[outputs]
+  home                  = ["html"]
+
+  
+
+[params]
+  enableCDN             = false
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  highlightjs           = false
+  highlightjsTheme      = ""
+  highlightjsLang       = []
+  viewMorePostsLink     = "/news/"
+  readingTime           = true
+  imageStretch          = ""
+  removeBlur            = false
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  hideEmptyStats        = false
+  toc                   = false
+  tocWords              = 400
+  socialAppearAtTop     = true
+
+
+  [params.meta]
+    description         = "Purnima Kamath's corner in the ether."
+    author              = "Purnima Kamath"
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff"
+    iOSColor            = "#ffffff"
+
+  [params.header]
+    navbarTitle         = ""
+    dynamicTitles       = false
+    searchMenu          = true
+    shareMenu           = false
+    languageMenu        = false
+
+  [params.intro]
+    header                = "Purnima Kamath"
+    paragraph             = '<span style="text-transform: lowercase">(She/Her)</span> <br/> P<span style="text-transform: lowercase">h</span>.D<span style="text-transform: lowercase">one</span>. <i class="fa-solid fa-at"></i>NUS <br/>Generative Audio AI <i class="fa-solid fa-music"></i><br/> Painter in oils <i class="fa-solid fa-palette"></i> <br/> Generative art nerd <i class="fa-solid fa-heart"></i>'
+    rssIntro              = false
+    socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
+
+    [params.intro.pic]
+      src                 = "img/main/profile-pic.png"
+      shape               = "circle"
+      circle              = true
+      width               = ""
+      alt                 = "Purnima Kamath"
+
+  [params.sidebar]
+    about               = ""
+    postAmount          = 0
+    categories          = false
+    categoriesByCount   = false
+
+  [params.footer]
+    rssFooter           = false
+    socialFooter        = false
+
+  [params.utterances]
+    enabled             = false
+    repo                = ""
+    issueTerm           = "pathname"
+    issueNumber         = ""
+    label               = ""
+    theme               = "github-light"
+
+  [params.staticman]
+    enabled             = false
+    api                 = ""  # No Trailing Slash
+    gitProvider         = ""
+    username            = ""
+    repo                = ""
+    branch              = ""
+
+    [params.staticman.recaptcha]
+      siteKey           = ""
+      encryptedKey      = ""
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    identifier = "fa fa-home"
+    weight = 1
+
+  [[menu.main]]
+    name = "News"
+    url = "/news"
+    identifier = "fa fa-newspaper-o"
+    weight = 2
+
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications"
+    identifier = "fa fa-highlighter"
+    weight = 3
+
+  [[menu.main]]
+    name = "CV"
+    url = "/documents/purnima-kamath-academic-resume.pdf"
+    identifier = "fa fa-file"
+    weight = 4
+
+  [[menu.main]]
+    name = "Blog"
+    url = "https://medium.com/@prnmkmth"
+    identifier = "fa fa-paragraph"
+    weight = 5
+
+  [[menu.main]]
+    name = "Talks"
+    url = "/talks"
+    identifier = "fa fa-microphone-lines"
+    weight = 6
+
+  [[menu.main]]
+    name = "Paintings"
+    url = "https://www.instagram.com/purnima.kamath.art/"
+    identifier = "fa fa-palette"
+    weight = 7
+
+  [[menu.main]]
+    name = "Generative Art"
+    url = "/genart/"
+    identifier = "fa fa-shapes"
+    weight = 8
+
+  
+
+[Languages]
+
+  [Languages.en]
+    LanguageCode        = "en"
+    LanguageName        = "English"
+    weight              = 1
+ 
+
+[social]
+  # Coding Communities
+  github                = "pkamath2"
+  gitlab                = ""
+  stackoverflow         = "" # User Number
+  bitbucket             = ""
+  jsfiddle              = ""
+  codepen               = ""
+  # Visual Art Communities
+  deviantart            = ""
+  flickr                = ""
+  behance               = ""
+  dribbble              = ""
+  # Publishing Communities
+  wordpress             = ""
+  medium                = ""
+  # Professional/Business Oriented Communities
+  linkedin              = "purnimakamath"
+  linkedin_company      = ""
+  foursquare            = ""
+  xing                  = ""
+  slideshare            = ""
+  # Social Networks
+  facebook              = ""
+  googleplus            = ""
+  reddit                = ""
+  quora                 = ""
+  youtube               = ""
+  vimeo                 = ""
+  whatsapp              = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat              = ""
+    qq                  = "" # User ID Number
+  instagram             = ""
+  tumblr                = ""
+  twitter               = "purnimakamath"
+  bluesky               = "purnimakamath"
+  strava                = ""
+  skype                 = ""
+  snapchat              = ""
+  pinterest             = ""
+  telegram              = ""
+  vine                  = ""
+  googlescholar         = ""
+  orcid                 = ""
+  researchgate          = ""
+  keybase               = ""
+  mastodon              = ""
+  # Email
+  email                 = ""
+
+[deployment]
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "purnimakamath.com"
+
+URL = "s3://purnimakamath.com?region=ap-southeast-1"
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
