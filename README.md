@@ -12,7 +12,7 @@ Alls well.
 
 hugo serve <-- To run the local server  
 hugo <-- Build for distribution  
-hugo deploy <-- Push to S3.   
+hugo deploy --maxDeletes 0 <-- Push to S3. MaxDeletes is important. Risk of a wipeout if not. (See Double Gah!)  
 Checkout https://purnimakamath.com  
 
 ## Dear lord, why aren't my changes visible??
