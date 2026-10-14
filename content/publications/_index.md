@@ -13,12 +13,21 @@ format = ""
 link = ""
 +++
 
+# 2026
+
+* **Kamath, P.**, Roman, A.S., Saito, K., Mitsufuji, Y., Bello, J.P. (2026). [Sensitivity Analysis of Generative Spatial Audio Metrics : A Study on Responsiveness, Smoothness, and Symmetry](https://www.isca-archive.org/interspeech_2026/kamath26_interspeech.html). Proc. Interspeech 2026, 6719-6723, doi: 10.21437/Interspeech.2026-252
+
+
+* Messerschmidt, M., **Kamath, P.**, Weerasinghe, Y., Nanayakkara, S.  (2026). [Prompt-to-Touch: Towards Enabling Automatic Haptic Effect Generation from Text Prompts](https://dl.acm.org/doi/full/10.1145/3819584) ACM Transactions on Computer-Human Interaction (TOCHI), 33(4), 1-44.
+
 # 2025
 
-* **Kamath, P.**, Gupta, C., & Nanayakkara, S. (2025). [MorphFader: Enabling Fine-grained Controllable Morphing with Text-to-Audio Models](https://arxiv.org/abs/2408.07260). (Accepted and Pending Publication at **ICASSP 2025**).  [[<span style='font-size: smaller;color: #006CB8;'>Paper</span>]](https://arxiv.org/abs/2408.07260) [[<span style='font-size: smaller;color: #006CB8;'>Webpage</span>]](https://pkamath2.github.io/audio-morphing-with-text/webpage/)
+* **Kamath, P.**, Gupta, C., & Nanayakkara, S. (2025). [MorphFader: Enabling Fine-grained Controllable Morphing with Text-to-Audio Models](https://arxiv.org/abs/2408.07260). In **IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)** (pp. 1-5), 2025.  [[<span style='font-size: smaller;color: #006CB8;'>Paper</span>]](https://arxiv.org/abs/2408.07260) [[<span style='font-size: smaller;color: #006CB8;'>Webpage</span>]](https://pkamath2.github.io/audio-morphing-with-text/webpage/)
 
 
 # 2024
+
+* **Kamath, P.** [Designing & Evaluating Interactive Generative Audio Models for Sound Design](https://purnimakamath.com/documents/purnima_kamath_phd_thesis.pdf). **Ph.D. Thesis**, 2024. [[<span style='font-size: smaller;color: #006CB8;'>Webpage</span>]](https://purnimakamath.com/thesis-related/)
 
 * **Kamath, P.**, Gupta, C., Wyse, L., & Nanayakkara, S. (2024). [Example-Based Framework for Perceptually Guided Audio Texture Generation](https://ieeexplore.ieee.org/abstract/document/10508390/). In **IEEE/ACM Transactions on Audio, Speech, and Language Processing (IEEE TASLP)**, vol. 32, pp. 2555-2565, 2024.  [[<span style='font-size: smaller;color: #006CB8;'>Paper</span>]](https://ieeexplore.ieee.org/abstract/document/10508390/) [[<span style='font-size: smaller;color: #006CB8;'>Webpage</span>]](https://pkamath2.github.io/audio-guided-generation/)
 

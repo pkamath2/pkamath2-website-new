@@ -15,10 +15,19 @@ link = ""
 
 An uncurated list of some of my generative artworks. 
 
-* [Cellular Automaton - Game Of Life](https://bl.ocks.org/pkamath2/a1daf4f25ec4a7a14f65245e67261cfb)
+* [Cellular Automaton - Game Of Life (Rules Tweaked)](/html/gameoflife.html)
 * [Elementary Cellular Automata - All 255 Wolfram rules](https://pkamath2.github.io/generative/rule.html)
 * [Fibonacci Series in Grid - First 500 number](https://pkamath2.github.io/generative/fibonacci.html)
 * [Fibonacci Series w/ circles](https://pkamath2.github.io/generative/fibonacci-circles.html)
+* SVG Art <i>(Each texture below is "Drawn/Hand Coded" using SVG. Yes, not "generative" in nature, but oh! so therapeutic to make)</i>:
+    * [Geometric Green](https://codepen.io/pkamath2/full/YgqZam)
+    * [Blue Tiling](https://codepen.io/pkamath2/full/exxVog)
+    * [Indian Rangoli](https://codepen.io/pkamath2/full/YgPBPY)
+    * [Cross Hatch Tiling](https://codepen.io/pkamath2/full/ZwwRdB)
+    * [Moire Pattern](https://codepen.io/pkamath2/full/dareQG)
+    * [Flowers](https://codepen.io/pkamath2/full/EMNZQx)
+    * [Flowers with SVG Filters](https://codepen.io/pkamath2/full/jRpPLy/392458d16109f9d2d8d45875d549224f)
+    * [Book Cover: War Of The Worlds](https://codepen.io/pkamath2/full/pBYPQq)
 * [Generative art - bl.ocks](https://bl.ocks.org/pkamath2)
 * [Infinite Fractals - Clifford Pickover](https://pkamath2.github.io/generative/pickover-fractals/index.html)
 * [Mandelbrot Set (Note: **Massive number crunching on load. Takes time to render.**)](https://pkamath2.github.io/generative/mandelbrot/index.html)
